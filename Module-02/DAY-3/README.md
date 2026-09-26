@@ -26,13 +26,40 @@ To create a java program to read 5 values and display the all 5 values from arra
  ```
 /*
 Program to implement a Single Array using Java
-Developed by: 
-RegisterNumber:  
+Developed by: DEEPAK K
+RegisterNumber: 212224060053
 */
 ```
 
 ## Sourcecode.java:
+```
 
+import java.util.*;
+
+public class Main
+{
+   public static void main(String args[])
+   {    
+
+	Scanner sc=new Scanner(System.in);
+	
+	int a[]=new int[5];//declaration    	 
+	
+        for(int i=0; i<5; i++)
+        {
+           a[i] = sc.nextInt();
+        }   
+        System.out.print("Elements in Array are :\n");
+        for(int i=0; i<5; i++)
+        {
+           System.out.print(a[i] + "  ");
+        }  
+   }
+}
+	
+
+
+```
 
 
 
@@ -40,10 +67,20 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```
+Input       Expected                                  Got
 
+3           Elements in Array are :                   Elements in Array are :                   
+            3  4  5  6  7                             3  4  5  6  7
+4
+5
+6
+7
+
+
+```
 
 
 ## RESULT:
 Thus, the Java program Thus the java program to read 5 values and display the all 5 values from array using single dimensional  was executed successfully.
-
 
